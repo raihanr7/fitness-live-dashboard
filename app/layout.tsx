@@ -1,9 +1,17 @@
 import './globals.css'
-export const metadata = { title: 'Fitness Live Dashboard' }
+import { Providers } from "./providers";
+
+export const metadata = { 
+  title: 'Fitness Live Dashboard',
+  description: 'Tracking my running progress' 
+}
+
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
-      <body className="bg-slate-950 text-white">{children}</body>
+      <body className="bg-slate-950 text-white">
+        <Providers>{children}</Providers>
+      </body>
     </html>
   )
 }
