@@ -53,4 +53,4 @@ Sistem menggunakan metode asinkron (Post-Workout). Data dari Huawei Wearable mas
 ## 5. Non-Functional Requirements
 - **Data Integrity:** Gracefully handle missing or null data fields (e.g., if SpO2 wasn't tracked on a certain day) by displaying standard dashed indicators (`--`) instead of crashing the UI.
 - **Performance:** Pre-render static UI shells and fetch heavy Huawei datasets asynchronously to keep initial page loading under 2 seconds.
-- **Privacy:** Implement a simple query parameter or toggle to allow the user to password-protect or restrict public visibility when sharing the dashboard link with others.
+- **Privacy:** Implement a simple query parameter or toggle to allow the user to password-protect or restrict public visibility when sharing the dashboard link with others...
